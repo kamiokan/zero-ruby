@@ -1,0 +1,8 @@
+# frozen_string_literal: true
+
+sum = 0
+numbers = [1, 2, 3]
+numbers.each do |number|
+  sum += number
+end
+puts sum
